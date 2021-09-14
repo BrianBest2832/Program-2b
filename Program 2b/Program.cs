@@ -24,41 +24,54 @@ namespace Program_2b
                     Console.ReadKey(true);
                 }
                 // Valid number responses
-                    if (inputscore >= 93)
+                if (inputscore >= 93)
+                {
                     Console.WriteLine("You got the grade of A!");
-                else
-                    if (inputscore >= 90)
+                }
+                else if (inputscore >= 90)
+                {
                     Console.WriteLine("You got the grade of A-!");
-                else
-                    if (inputscore >= 87)
+                }
+                else if (inputscore >= 87)
+                {
                     Console.WriteLine("You got the grade of B+");
-                else
-                    if (inputscore >= 83)
+                }
+                else if (inputscore >= 83)
+                {
                     Console.WriteLine("You got the grade of B");
-                else
-                    if (inputscore >= 80)
+                }
+                else if (inputscore >= 80)
+                {
                     Console.WriteLine("You got the grade of B-");
-                else
-                    if (inputscore >= 77)
+                }
+                else if (inputscore >= 77)
+                {
                     Console.WriteLine("You got the grade of C+");
-                else
-                    if (inputscore >= 73)
+                }
+                else if (inputscore >= 73)
+                {
                     Console.WriteLine("You got the grade of C");
-                else
-                    if (inputscore >= 70)
+                }
+                else if (inputscore >= 70)
+                {
                     Console.WriteLine("You got the grade of C-");
-                else
-                    if (inputscore >= 67)
+                }
+                else if (inputscore >= 67)
+                {
                     Console.WriteLine("You got the grade of D+");
-                else
-                    if (inputscore >= 63)
+                }
+                else if (inputscore >= 63)
+                {
                     Console.WriteLine("You got the grade of D");
-                else
-                    if (inputscore >= 60)
+                }
+                else if (inputscore >= 60)
+                {
                     Console.WriteLine("You got the grade of D-");
+                }
                 else
-                    if (inputscore >= 0)
+                {
                     Console.WriteLine("You got the grade of F...");
+                }
 
                 Console.WriteLine("-----------------------------------------------------------");
                 Console.WriteLine("Thank you for your score. I hope you got what you wanted!");
